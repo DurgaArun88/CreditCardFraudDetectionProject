@@ -1,3 +1,8 @@
+import sys
+print("Python Executable:", sys.executable)
+print("Python Version:", sys.version)
+
+
 import streamlit as st
 import pickle
 import numpy as np
