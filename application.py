@@ -7,7 +7,7 @@ import streamlit as st
 import pickle
 import numpy as np
 import gzip
-import sklearn
+
 
 
 dtc=pickle.load(gzip.open('dtc.pkl.gz'))
